@@ -1,0 +1,7 @@
+[
+  {"name":"NEW CLIENTS","id":27,"img":"icon-user","num":"num1","color":"progress-bar1"},
+  {"name":"NEW PROJECTS","id":375,"img":"fa fa-book","num":"num2","color":"progress-bar2"},
+  {"name":"NEW INVOICES","id":140,"img":"fa fa-calculator","num":"num3","color":"progress-bar3"},
+  {"name":"ALL PROJECTS","id":41,"img":"fa fa-tv","num":"num4","color":"progress-bar4"}
+
+ ]

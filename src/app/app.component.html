@@ -1,0 +1,179 @@
+
+<div class="light">
+ <!--header-->
+ <div class="d-flex flex-row spc border1 container-fluid" >
+ <div class="p-2 container-fluid col-xs-4 col-lg-2 align-self-start ">
+
+ <h3 class="text-muted" style="padding-left:0px">
+ <span style="color: #DB6574">Dark</span>-Admin
+ <button class="btn" *ngIf="!iscollapsed" (click)="togglecollapse()"><i class="fa fa-long-arrow-right"></i></button>
+<button class="btn" *ngIf="iscollapsed" (click)="togglecollapse()">  <i class="fa fa-long-arrow-left"></i></button>
+</h3>
+ </div>
+
+<div class="p-2  col-sm-8 col-lg-10 border1">
+<ul class="nav nav-pills justify-content-end ">
+<li >
+<button  *ngIf="show" (click)="hide()" class="nav-link color-me" data-targe="#search"  role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></button>
+<button *ngIf="!show"  class="nav-link color-me" data-targe="#search"  role="button" aria-haspopup="true" aria-expanded="false"><input type="text" placeholder="Search">&nbsp;<i (click)="hide()" class="fa fa-search"></i></button>
+
+</li>
+
+
+<li class="nav-item dropdown">
+<a class="nav-link color-me" id="dropdownMenuOffset" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" data-offset="-70,1"><mat-icon matBadge="{{count}}"> mail_outline</mat-icon>
+  </a>
+<div class="dropdown-menu"   aria-labelledby="dropdownMenuOffset">
+ <div *ngFor="let list of lists">
+ <a class="dropdown-item" href="#" [style.color]="(list.status=='busy')?'green':'black'">{{list.name}}</a>
+ <a class="dropdown-item" href="#">Something else here</a>
+ <div class="dropdown-divider"></div>
+ <a class="dropdown-item" href="#">Separated link</a>
+ </div>
+ </div>
+ </li>
+
+ <li class="nav-item dropdown">
+ <a class="nav-link color-me" id="dropdownMenuOffset" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" data-offset="-70,1"><mat-icon matBadgeColor="warn" matBadge="{{count}}">launch</mat-icon>
+ </a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+ <div *ngFor="let list of lists">
+  <a class="dropdown-item" href="#">{{list.name}}</a>
+  <a class="dropdown-item" href="#">Something else here</a>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div>
+</li>
+
+ <li class="nav-item dropdown">
+ <a class="nav-link color-me" id="dropdownMenuOffset" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" data-offset="-70,1">Mega <i class="fa fa-ellipsis-v"></i></a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
+  <a class="dropdown-item" href="#">Action</a>
+  <a class="dropdown-item" href="#">Another action</a>
+  <a class="dropdown-item" href="#">Something else here</a>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+  </li>
+
+  <li class="nav-item dropdown">
+  <a class="nav-link color-me" (click)="onalert()" href="#" role="button" aria-haspopup="true" aria-expanded="false">Log-out <i class="fa fa-power-off  fa-rotate-90"></i></a>
+  </li>
+
+  </ul>
+  </div>
+  </div>
+
+
+
+  <div class="d-flex flex-row">
+
+    <!--side-bar-->
+    <div *ngIf="iscollapsed">
+    <div class="col container-fluid border2">
+    <div class="side-nav">
+    <div class="chip">
+    <img src='assets\img\{{photo}}' alt="Person" width="96" height="96">
+   <span>{{name}}</span> <span>{{occupation}}</span>
+   </div>
+  <nav>
+  <br>
+  <ul>
+<li class="disabled"><span>Main</span></li>
+
+<li >
+  <a routerLink="/home" routerLinkActive="active">
+  <span><i class="icon-home"></i></span>
+  <span>Home</span>
+  </a>
+</li>
+<li>
+  <a href="#homeSubmenu" data-toggle="collapse"  aria-expanded="false">
+  <span><i class="icon-windows"></i></span>
+  <span>Dropdown</span>
+  </a>
+  <ul class="collapse list-unstyled" id="homeSubmenu">
+    <li>
+    <a routerLink="/dropdown1" routerLinkActive="active"><span>Home 1</span></a>
+    </li>
+    <li>
+    <a routerLink="/dropdown2" routerLinkActive="active"><span>Home 2</span></a>
+    </li>
+    <li>
+    <a routerLink="/dropdown3" routerLinkActive="active"><span>Home 3</span></a>
+    </li>
+    </ul>
+    </li>
+
+    <li>
+    <a href="#" routerLink="/table" routerLinkActive="active">
+    <span ><i class="icon-table"></i></span>
+    <span>Tables</span>
+    </a>
+    </li>
+
+    <li>
+    <a routerLink="/chart" routerLinkActive="active">
+    <span><i style="padding-right: 20px;" class="fa fa-bar-chart"></i></span>
+    <span>Charts</span>
+    </a>
+    </li>
+
+    <li>
+    <a routerLink="/form" routerLinkActive="active">
+    <span ><i class="icon-clipboard-notes" ></i></span>
+    <span>Forms</span>
+    </a>
+    </li>
+
+   <li>
+    <a routerLink="/login" routerLinkActive="active">
+    <span><i class="icon-minus-circle"></i></span>
+    <span>Login Page</span>
+    </a>
+    </li>
+
+    <li class="disabled"><span>Extras</span></li>
+    <li>
+    <a routerLink="/demo1" routerLinkActive="active">
+    <span><i class="icon-sun"></i></span>
+    <span>Demo</span>
+    </a>
+    </li>
+
+    <li>
+    <a routerLink="/demo2" routerLinkActive="active">
+    <span><i class="fa fa-home"></i></span>
+    <span>Demo</span>
+    </a>
+    </li>
+
+     <li>
+     <a routerLink="/demo3" routerLinkActive="active">
+     <span><i class="icon-light-bulb"></i></span>
+     <span>Demo</span>
+     </a>
+     </li>
+      </ul>
+     </nav>
+     </div>
+</div>
+</div>
+
+<!--widgets-->
+<div class=" col container-fluid dark " >
+  <router-outlet></router-outlet>
+
+  </div>
+  </div>
+
+  <!--footer-->
+  <footer class="footer">
+    <div class="container-fluid text-center">
+    <p class="no-margin-bottom">2019 &copy; Your company. Design by <a href="#">Angular 6</a>.</p>
+    </div>
+  </footer>
+
+</div>
+

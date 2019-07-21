@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+body,html
+{
+    background-color: black;
+    position: relative;
+
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+  }
+  /* Optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+  }
+
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+
+  .container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+
+  #liaddshapes::-webkit-scrollbar {
+    width: 0 !important;
+  }

@@ -1,0 +1,102 @@
+<div class="page-header row">
+<div class="container-fluid light">
+<h5 class="h5">Dashboard</h5>
+</div>
+</div>
+
+<div class="row">
+  <div class="col-md-3 nopadding col-sm-6 container-fluid" *ngFor="let list of lists" cdkDrag><div class="clg light">
+    <div class="row justify-content-between">
+  <div class="col row1"><i class="{{list.img}} "></i><p>{{list.name}}</p></div>
+  <div class="col {{list.num}} ">{{list.id}}</div>
+  </div>
+  <div class="progress">
+  <div class="progress-bar {{list.color}} " [style.width.%]="(list.id/5)" role="progressbar"  aria-valuenow="50%" aria-valuemin="0" aria-valuemax="100" ></div>
+  </div>
+  </div>
+</div>
+</div>
+
+<div class="row" >
+<div class="col-lg-4">
+  <!--bar chart-->
+   <div  cdkDrag class="clg" style="background-color:rgb(45,48,53)">
+      <canvas height="135px" id="barChart"></canvas>
+<canvas height="135px" id="barChart1"></canvas>
+  </div>
+</div>
+
+  <!--line chart-->
+  <div class="col-lg-8 nopadding container-fluid">
+   <div  cdkDrag class="clg" style="background-color:rgb(45,48,53)">
+      <canvas height="128px" id="lineChart"></canvas>
+
+  </div>
+  </div>
+  </div>
+
+<div class="row" >
+<div class="col-lg-6 col-sm-6 container-fluid"  cdkDrag>
+<div class="row" style="padding-left:4mm;padding-right:3mm ">
+<div  style="height:120px" class="col-md-6 col-sm-6 nopadding1 light" *ngFor="let list of lists1">
+<div class="clg1">
+<div class="row ">
+<div class="col-sm-1 {{list.num}} " style="padding-top:2mm "><i class="{{list.img}}"></i>
+</div>
+<div class="col {{list.bor}}"><p style="font-weight: bold;font-size:7mm">{{(list.id)}}</p>
+<p >{{list.name}}</p>
+</div>
+</div>
+ <div class="progress">
+ <div class="progress-bar {{list.color}}" [style.width.%]="(list.id*10)" role="progressbar"  aria-valuenow="50%" aria-valuemin="0" aria-valuemax="100" ></div>
+ </div>
+ </div>
+ </div>
+</div>
+
+
+ <br>
+
+
+ <div class="row"  style="padding-left: 4mm;padding-right:3mm" >
+ <div style="height:120px" class="col-md-6 col-sm-6 container-fluid nopadding1 light">
+ <div class="clg1" *ngFor="let list of list3">
+ <div class="row ">
+ <div class="col border2" ><p style="font-weight: bold;font-size:7mm">{{list.id}}</p>
+ <p >{{list.name}}</p>
+  </div>
+  </div>
+ <div class="progress">
+ <div class="progress-bar progress-bar2" [style.width.%]="(list.id/10)" role="progressbar"  aria-valuenow="50%" aria-valuemin="0" aria-valuemax="100" ></div>
+ </div>
+ </div>
+ </div>
+
+ <div class="col-md-6 col-sm-6 container-fluid nopadding2 light">
+ <div class="clg1">
+ <div class="row justify-content-between" >
+ <div class="col" style="padding-top: 2mm" *ngFor="let list of lists2"><p style="font-weight: bold;font-size:6mm">{{list.id}}</p>
+ <p>{{list.name}}</p>
+ </div>
+
+ </div>
+
+
+  </div>
+  </div>
+  </div>
+<br>
+ </div>
+
+
+ <!--line chart-->
+ <div class="col-lg-6 container-fluid nopadding" cdkDrag>
+ <div class="clg" style="background-color:rgb(45,48,53)">
+ <div class="drills-chart block">
+ <canvas height="140px" id="lineChart1"></canvas>
+ </div>
+ </div>
+ </div>
+ </div>
+
+
