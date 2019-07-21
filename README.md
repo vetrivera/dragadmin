@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9.
 
-## cli installation
+## Cli installation
 
 Run `npm install -g @angular/cli@6` for creating a angular 6 cli.
 
