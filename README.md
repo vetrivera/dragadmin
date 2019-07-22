@@ -6,9 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `npm install -g @angular/cli@6` for creating a angular 6 cli.
 
-## Code scaffolding
+## How to start 
 
-Run followind commands
+In order to start a project
+* `npm install`
 * `npm install bootstrap --save` for using bootstrap.
 * `npm install font-awesome --save` for using google fonts.
 * `npm install popper.js jquery --save` for using jquery and dragdrop.
