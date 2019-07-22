@@ -36,7 +36,7 @@ User able to drag and drop the widgets any where in the webpage and Rearrange th
 DragAdmin, This project was created in angualr6.
 It contain `16 modules` and `3 sub modules`,
 Each module have a unique pages,
-The default page is home module,this page only developed,another pages is developing process,
+The default page is `home page`,this page only developed,another pages is developing process,
 Home module contain `9 widgets`,each widgets show on unique valus to the admin,the admin able to see a all process of the page,
 
 In 9 widgets `data getting from json data`,
@@ -45,7 +45,16 @@ In 9 widgets `data getting from json data`,
 * Second row contain `2 widgets`,it show on values in charts,barcahrt and linechart 
 * Third row contain `3 widgets`, 2 rows 1 chart,the rows value `divided by 10` and it show on `progress-bar`,
 
-Side-bar user able to show and hide on it using a arrow button,
+
+## Top Navigation-bar
+
+`Side-bar` user able to show and hide on it using a arrow button,
+`Search`when ever click the button it Expand it, 
+`Message` it show on messages with different colors,when client is busy it show on green color,or else normal color,
+`task` it show on task list,
+`mega` it show an a another menu,
+`logout`if admin leave the page click logout,it show on page leave command,
+
 
 ## Project Flow
 
