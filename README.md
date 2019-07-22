@@ -22,10 +22,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Demo
 
-Before Dragdrop the widgets 
+##### Before Dragdrop the widgets 
 ![admin3-900x600_9e2928ba7d37c42633b3c2c1b1968a81](https://user-images.githubusercontent.com/51225963/61626065-c77f5600-ac6b-11e9-9b01-e14c35d57790.png)
 
-After Dragdrop the widgets
+##### After Dragdrop the widgets
 ![Capture3](https://user-images.githubusercontent.com/51225963/61627023-4d040580-ac6e-11e9-8ae6-72a3759100aa.PNG)
 
 
