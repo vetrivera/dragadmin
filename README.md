@@ -33,15 +33,15 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 User able to drag and drop the widgets any where in the webpage and Rearrange the places.
 
 ## Project Details
-DragAdmin,,This project was created in angualr6.
-It contain 16 modules and 3 sub modules,
+DragAdmin, This project was created in angualr6.
+It contain `16 modules` and `3 sub modules`,
 Each module have a unique pages,
 The default page is home module,this page only developed,another pages is developing process,
-Home module contain 9 widgets,each widgets show on unique valus to the admin,the admin able to see a all process of the page,
-In 9 widgets data getting from json data,
-* First row contain 4 widgets,each column value divided by 5 and it show on progress-bar
-* Second row contain 2 widgets,it show on values in charts,barcahrt and linechart 
-* Third row contain 3 widgets, 2 rows 1 chart,the rows value divided by 10 and it show on progress-bar,
+Home module contain `9 widgets`,each widgets show on unique valus to the admin,the admin able to see a all process of the page,
+In 9 widgets `data getting from json data`,
+* First row contain `4 widgets`,each column value `divided by 5` and it show on `progress-bar`
+* Second row contain `2 widgets`,it show on values in charts,barcahrt and linechart 
+* Third row contain `3 widgets`, 2 rows 1 chart,the rows value `divided by 10` and it show on `progress-bar`,
 
 ## Further help
 
