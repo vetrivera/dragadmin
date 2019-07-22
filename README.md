@@ -29,7 +29,7 @@ After Dragdrop the widgets
 ![Capture3](https://user-images.githubusercontent.com/51225963/61627023-4d040580-ac6e-11e9-8ae6-72a3759100aa.PNG)
 
 
-User able to drag and drop the widgets any where in the webpage and rearrange the places.
+User able to drag and drop the widgets any where in the webpage and Rearrange the places.
 
 ## Running unit tests
 
