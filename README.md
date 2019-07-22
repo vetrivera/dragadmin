@@ -8,7 +8,13 @@ Run `npm install -g @angular/cli@6` for creating a angular 6 cli.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run followind commands
+* `npm install bootstrap --save` for using bootstrap.
+* `npm install font-awesome --save` for using google fonts.
+* `npm install popper.js jquery --save` for using jquery and dragdrop.
+* `npm install chart.js --save` for using charts.
+* `npm install @angular/material --save` for using angular materials.
+* `npm install @angular/cdk --save` for using drag drop.
 
 ## Build
 
