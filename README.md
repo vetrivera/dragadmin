@@ -18,7 +18,9 @@ In order to start a project
 * `npm install chart.js --save` for using charts.
 * `npm install @angular/material --save` for using angular materials.
 * `npm install @angular/cdk --save` for using drag drop.
-* `ng serve` host the poject.
+
+## Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Demo
 Before Dragdrop the widgets 
