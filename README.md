@@ -49,7 +49,7 @@ Side-bar user able to show and hide on it using a arrow button,
 
 ## Project Flow
 
-![Capture  1](https://user-images.githubusercontent.com/51225963/61632533-9d825f80-ac7c-11e9-9873-f8ed8b11cca9.PNG)
+![Capture1](https://user-images.githubusercontent.com/51225963/61633193-12a26480-ac7e-11e9-9ed1-366914ae2795.PNG)
 
 
 ## Further help
