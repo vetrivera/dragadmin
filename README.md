@@ -47,6 +47,10 @@ In 9 widgets `data getting from json data`,
 
 Side-bar user able to show and hide on it using a arrow button,
 
+## Project Flow
+
+![Capture 4](https://user-images.githubusercontent.com/51225963/61632364-32d12400-ac7c-11e9-9702-af5741865d9a.PNG)
+
 
 ## Further help
 
