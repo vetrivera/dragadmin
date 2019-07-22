@@ -1,9 +1,8 @@
 # Dragadmin
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9,
 bootstrap : 4.3.1
 typescript : 3.4.5
-
 
 ## Cli installation
 
