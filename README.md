@@ -18,10 +18,12 @@ In order to start a project
 * `npm install chart.js --save` for using charts.
 * `npm install @angular/material --save` for using angular materials.
 * `npm install @angular/cdk --save` for using drag drop.
+* `ng serve` host the poject.
 
 ## Demo
+Before Dragdrop the widgets 
 ![admin3-900x600_9e2928ba7d37c42633b3c2c1b1968a81](https://user-images.githubusercontent.com/51225963/61626065-c77f5600-ac6b-11e9-9b01-e14c35d57790.png)
-
+After Dragdrop the widgets
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
