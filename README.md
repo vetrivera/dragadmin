@@ -60,13 +60,20 @@ In 9 widgets `data getting from json data`,
 
 ![Capture1](https://user-images.githubusercontent.com/51225963/61633193-12a26480-ac7e-11e9-9ed1-366914ae2795.PNG)
 
+
 ## Features
 
-* Bootstrap : 4.3.1
+* Angular 6
+* Bootstrap : 4.3.1 
 * Typescript : 3.4.5
-* Cross platform
-* 
-
+* High resolution
+* Responsive layout
+* 9 Angular Components
+* icons used in fontastic.me
+* Charts (Chart.js)
+* Drag ad Drop the widgets
+* Scrollbar hide (more visible)
+* Inspect elemnet disable (Protecting our source code)
 
 ## Further help
 
