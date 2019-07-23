@@ -30,7 +30,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ![Capture3](https://user-images.githubusercontent.com/51225963/61627023-4d040580-ac6e-11e9-8ae6-72a3759100aa.PNG)
 
 
-User able to drag and drop the widgets any where in the webpage and Rearrange the places.
+User able to drag and drop the widgets any where in the web page and Rearrange the places.
 
 ## Project Details
 DragAdmin, This project was created in angualr6.
@@ -42,7 +42,7 @@ Home page contain `9 widgets`,each widgets show on unique valus to the admin,the
 In 9 widgets `data getting from json data`,
 
 * First row contain `4 widgets`,each column value `divided by 5` and it show on `progress-bar`
-* Second row contain `2 widgets`,it show on values in charts,barcahrt and linechart 
+* Second row contain `2 widgets`,it show on values in charts,barchart and linechart 
 * Third row contain `3 widgets`, 2 rows 1 chart,the rows value `divided by 10` and it show on `progress-bar`,
 
 
@@ -73,7 +73,7 @@ In 9 widgets `data getting from json data`,
 * Charts (Chart.js)
 * Drag ad Drop the widgets
 * Scrollbar hide (more visible)
-* Inspect elemnet disable (Protecting our source code)
+* Inspect element disable (Protecting our source code)
 
 ## Further help
 
