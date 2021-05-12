@@ -24,7 +24,7 @@
     "@angular/router": "^6.1.0",
     "angular-draggable-droppable": "^4.3.1",
     "bootstrap": "^4.3.1",
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.4",
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "git": "^0.1.5",
